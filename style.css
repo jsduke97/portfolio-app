@@ -1,0 +1,55 @@
+.circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#sidebar_name {
+    margin-top: 10px;
+    font-size: 24pt;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#sidebar_about {
+    margin-top: 5px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#project_description {
+    text-align: justify;
+}
+
+[data-testid=stSidebar] {
+    background-image: linear-gradient(#290050,#5c4fed);
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+
+/* Design Hyperlink */
+a:link , a:visited{
+    color: white;
+}
+    
+a:hover,  a:active {
+    color: white;
+    text-decoration: underline;
+}
