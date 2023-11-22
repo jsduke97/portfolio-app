@@ -78,7 +78,7 @@ with st.container():
 
 with c1:
     title = "ESG Certification Recommender"
-    link = "./Projects"
+    link = "./ESG_Recommendation"
     description = """Built a Python application to recommend sustainability certifications for IT products. The application takes in product data and enriches the dataset with feature definitions from LLaMA and Cohere LLMs. Each product is then assessed by GPT-3.5 and Cohere on compliance with various environmental, social, and governance (ESG) certifications."""
     image = Image.open("./assets/ESG.png")
     project(title, link, ["LLM Generation", "NLP Transformers"], description, image)

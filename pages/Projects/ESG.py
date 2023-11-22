@@ -63,8 +63,8 @@ with col1:
 
 with col2:
     st.link_button("Try the Demo", project["demo_link"], use_container_width = True)
-    st.link_button("Read the Report", "", use_container_width = True)
-    st.link_button("View the Presentation", "", use_container_width = True)
+    st.link_button("Read the Report", "", use_container_width = True, disabled = True)
+    st.link_button("View the Presentation", "", use_container_width = True, disabled = True)
 
 with st.container():
     v1_col1, v1_col2 = st.columns([4, 10])
