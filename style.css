@@ -1,3 +1,14 @@
+[data-testid="stSidebarNav"] {
+    padding_top: -50px;
+    padding_bottom: 100px;
+    margin-bottom: -50px;
+    margin-top: -50px;
+    height: 300px;
+}
+[data-testid="stSidebarNav"]::before {
+    top: 100px;
+}
+
 .circle-image {
     width: 150px;
     height: 150px;
