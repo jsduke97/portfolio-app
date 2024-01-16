@@ -30,13 +30,13 @@ st.sidebar.markdown(info["Sidebar Name"], unsafe_allow_html = True)
 st.sidebar.markdown(info["Sidebar About"], unsafe_allow_html = True)
 
 with st.sidebar:
-    with open("./assets/Jackson_S_Duke_Resume_2023.pdf", "rb") as pdf_file:
+    with open("./assets/Jackson_S_Duke_Resume_2024.pdf", "rb") as pdf_file:
         PDFbyte = pdf_file.read()
 
     resume = st.download_button(
         label = "Download Resume",
         data = PDFbyte,
-        file_name = "Jackson_S_Duke_Resume_2023.pdf",
+        file_name = "Jackson_S_Duke_Resume_2024.pdf",
         mime = "application/pdf",
         use_container_width = True
     )
