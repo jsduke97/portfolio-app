@@ -2,7 +2,7 @@ info = {
    "Pronoun": "he/him", 
    "Name": "Jackson",
    "Sidebar Name": "<div id=\"sidebar_name\">Jackson S Duke</div>",
-   "Sidebar About": "<div id=\"sidebar_about\">Data scientist and master’s graduate from the Georgia Institute of Technology. Three years of work experience in cloud migration and machine learning. Project experience in NLP, LLMs, ML, and Regression.</div>",
+   "Sidebar About": "<div id=\"sidebar_about\">Data scientist and master’s graduate from Georgia Tech. Three years of work experience in cloud migration and machine learning. Project experience in NLP, LLMs, ML, and Regression.</div>",
    "About": "Master’s data science graduate from Georgia Tech.",
    "Photo":"""<div class=\"circle-image\"><a href=\"https://www.linkedin.com/in/jacksonduke/\"><img src=\"https://media.licdn.com/dms/image/D5603AQH-yT8FXzB5FQ/profile-displayphoto-shrink_400_400/0/1684782339752?e=1706140800&v=beta&t=AHa0HRp4vRygfY_nVPhEgdxIVSawEGz3Q4w_Si-xdS0" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a></div>""",
    "Email": "jacksonsduke@gmail.com"
