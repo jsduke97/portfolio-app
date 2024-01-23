@@ -104,7 +104,7 @@ with st.container():
 
 with col1:
     st.markdown("### Education")
-    education("Georgia Institute of Technology", ["Online Master's of Science in Analytics"], "December 2023")
+    education("Georgia Institute of Technology", ["Master's of Science in Analytics"], "December 2023")
     education("University of North Carolina at Chapel Hill", ["BS Computer Science", "BA Chinese"], "August 2019")
 
 with col2:
